@@ -1,0 +1,29 @@
+{
+    "KartAgent": {
+        "checkpoints": [
+            {
+                "steps": 34902,
+                "file_path": "results\\AI-Racing-Karts_2\\KartAgent\\KartAgent-34902.onnx",
+                "reward": -1.5131083071231841,
+                "creation_time": 1718187490.2017784,
+                "auxillary_file_paths": [
+                    "results\\AI-Racing-Karts_2\\KartAgent\\KartAgent-34902.pt"
+                ]
+            }
+        ],
+        "final_checkpoint": {
+            "steps": 34902,
+            "file_path": "results\\AI-Racing-Karts_2\\KartAgent.onnx",
+            "reward": -1.5131083071231841,
+            "creation_time": 1718187490.2017784,
+            "auxillary_file_paths": [
+                "results\\AI-Racing-Karts_2\\KartAgent\\KartAgent-34902.pt"
+            ]
+        }
+    },
+    "metadata": {
+        "stats_format_version": "0.3.0",
+        "mlagents_version": "1.0.0",
+        "torch_version": "2.3.1+cpu"
+    }
+}

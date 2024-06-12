@@ -1,0 +1,47 @@
+{
+    "KartAgent": {
+        "checkpoints": [
+            {
+                "steps": 499751,
+                "file_path": "results\\AI-Racing-Karts\\KartAgent\\KartAgent-499751.onnx",
+                "reward": -1.6616666714350383,
+                "creation_time": 1718185308.5293813,
+                "auxillary_file_paths": [
+                    "results\\AI-Racing-Karts\\KartAgent\\KartAgent-499751.pt"
+                ]
+            },
+            {
+                "steps": 999943,
+                "file_path": "results\\AI-Racing-Karts\\KartAgent\\KartAgent-999943.onnx",
+                "reward": -1.9443334341049194,
+                "creation_time": 1718185733.2301798,
+                "auxillary_file_paths": [
+                    "results\\AI-Racing-Karts\\KartAgent\\KartAgent-999943.pt"
+                ]
+            },
+            {
+                "steps": 1180465,
+                "file_path": "results\\AI-Racing-Karts\\KartAgent\\KartAgent-1180465.onnx",
+                "reward": -1.7816458716988564,
+                "creation_time": 1718185879.514463,
+                "auxillary_file_paths": [
+                    "results\\AI-Racing-Karts\\KartAgent\\KartAgent-1180465.pt"
+                ]
+            }
+        ],
+        "final_checkpoint": {
+            "steps": 1180465,
+            "file_path": "results\\AI-Racing-Karts\\KartAgent.onnx",
+            "reward": -1.7816458716988564,
+            "creation_time": 1718185879.514463,
+            "auxillary_file_paths": [
+                "results\\AI-Racing-Karts\\KartAgent\\KartAgent-1180465.pt"
+            ]
+        }
+    },
+    "metadata": {
+        "stats_format_version": "0.3.0",
+        "mlagents_version": "1.0.0",
+        "torch_version": "2.3.1+cpu"
+    }
+}

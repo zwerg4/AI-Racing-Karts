@@ -21,8 +21,8 @@ public class AutomaticCameraSystem : MonoBehaviour
         kartToFollow.reachedCheckpoint += OnReachedCheckpoint;
     }
 
-    private void OnReachedCheckpoint(Checkpoint checkpoint)
-    {
+   private void OnReachedCheckpoint(Checkpoint checkpoint)
+    {/*
         foreach (CameraCheckpoint cameraCheckpoint in cameraCheckpoints)
         {
             if (cameraCheckpoint.checkpoint == checkpoint)
@@ -30,8 +30,8 @@ public class AutomaticCameraSystem : MonoBehaviour
                 DeactivateAllCamera();
                 cameraCheckpoint.camera.gameObject.SetActive(true);
             }
-        }
-    }
+        }*/
+    } 
 
 
     public void setCameraActive(int index)
