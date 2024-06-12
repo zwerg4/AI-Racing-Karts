@@ -952,7 +952,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1619112361}
-  m_RootOrder: 2
+  m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 19.597, y: 0, z: 0}
 --- !u!81 &342967651
 AudioListener:
@@ -4490,6 +4490,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 615356445828344825, guid: 529f8a27461a114498596bdc478a18ce,
+        type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 3137537921386370560, guid: 529f8a27461a114498596bdc478a18ce,
         type: 3}
       propertyPath: m_RootOrder

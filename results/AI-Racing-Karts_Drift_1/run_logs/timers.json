@@ -1,0 +1,47 @@
+{
+    "name": "root",
+    "metadata": {
+        "timer_format_version": "0.1.0",
+        "start_time_seconds": "1718235843",
+        "python_version": "3.10.4 (tags/v3.10.4:9d38120, Mar 23 2022, 23:13:41) [MSC v.1929 64 bit (AMD64)]",
+        "command_line_arguments": "C:\\Users\\fabga\\AppData\\Local\\Programs\\Python\\Python310\\Scripts\\mlagents-learn .\\Kart Agent.yaml --run-id=AI-Racing-Karts_Drift_1",
+        "mlagents_version": "1.0.0",
+        "mlagents_envs_version": "1.0.0",
+        "communication_protocol_version": "1.5.0",
+        "pytorch_version": "2.3.1+cpu",
+        "numpy_version": "1.21.2",
+        "end_time_seconds": "1718235907"
+    },
+    "total": 64.05900500004645,
+    "count": 1,
+    "self": 0.008328700088895857,
+    "children": {
+        "run_training.setup": {
+            "total": 0.1456400000024587,
+            "count": 1,
+            "self": 0.1456400000024587
+        },
+        "TrainerController.start_learning": {
+            "total": 63.9050362999551,
+            "count": 1,
+            "self": 0.00045050005428493023,
+            "children": {
+                "TrainerController._reset_env": {
+                    "total": 63.90457599994261,
+                    "count": 1,
+                    "self": 63.90457599994261
+                },
+                "trainer_threads": {
+                    "total": 7.00005330145359e-07,
+                    "count": 1,
+                    "self": 7.00005330145359e-07
+                },
+                "TrainerController._save_models": {
+                    "total": 9.09995287656784e-06,
+                    "count": 1,
+                    "self": 9.09995287656784e-06
+                }
+            }
+        }
+    }
+}
